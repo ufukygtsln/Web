@@ -1,0 +1,88 @@
+body{ 
+    background:url("https://atgbcentral.com/data/out/63/4466433-playstation-wallpaper.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .cont{
+    width:100%;
+    height:800px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .panel{
+    width:400px;
+    height:400px;
+    padding:10px;
+    display:flex;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 1px 1px 15px 1px #333832;
+  box-shadow: 1px 1px 15px 1px #333832; 
+  }
+  .panel>form{
+  /*   border:1px solid #fff; */
+    width:95%;
+    height:95%;
+    display:flex;
+    flex-direction:column;
+    
+  }
+  .panel>form>h1{
+   text-align:center;
+   font-family: 'Poiret One', cursive;
+    color:#F5F5F5;
+  }
+  .panel>form>label{
+    font-size:22px;
+   font-family: 'Poiret One', cursive;
+    color:#F5F5F5;
+    margin:5px;
+    
+  }
+  .panel>form>input{
+    background-color: rgba(215, 44, 44, 0);
+    height:35px;
+    border:none;
+    border-bottom: 3px solid #ccc;
+    margin-bottom:20px;
+    font-size:18px;
+    color:#f5f5f5;
+    outline: none;
+    font-family: 'Poiret One', cursive;
+    
+  }
+  .panel>form>input:focus {
+      border-bottom: 3px solid #9E9E9E;
+  }
+  .panel>form>a{
+    text-decoration:none;
+    color:#f5f5f5;
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    width:130px;
+    text-align:center;
+    position:relative;
+    left:70%;
+    
+  }
+  .button{
+    width:120px;
+    height:30px;
+    text-align:center;
+    line-height:-3px;
+    color:#f5f5f5;
+    font-family: 'Poiret One', cursive;
+    font-size:20px;
+    background-color: rgba(0, 0, 0, 0.8);
+  
+    margin-top:25px;
+    
+  }
+  .button:hover{
+    cursor:pointer;
+    -webkit-box-shadow: 1px 1px 15px 1px #333832;
+     box-shadow: 1px 1px 15px 1px #333832; 
+    
+  }
+  
